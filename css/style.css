@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+@media screen and (max-width:700px){
+  nav:
+  .row{flex-direction: column;
+    }
+  }
+
+
+body {font-family: "Barlow";
+margin: 0
+padding: 0}
+
+header {display: flex;
+  flex-wrap: wrap;
+    background-image: url(../imagenes/6.jpg);
+  justify-content: space-around;
+  height: 40vh;
+  width: auto;
+  border: 4px black solid;
+  align-items: center;
+  margin: 20px;
+}
+
+
+.titulo{color: black;
+  font-family: 'Barlow', sans-serif;
+font-size: 80px;
+text-align: center;
+}
+
+
+
+nav {background: rgba(0,0,0,0.7);
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+ }
+ nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #9cb9e2;
+}
+
+.row {display: flex; flex-wrap: wrap;}
+
+ aside{flex: 30%; color: white; background-color: #636363; padding: 40px}
+.titulonosotros {font-weight:600;text-decoration:underline;}
+ section {flex: 70%; background-color: #a8c2e6;padding: 40px}
+
+ .contenedor {
+   position: relative;
+   height: 290px;
+   width: 290px;
+   margin: 50px 20px;
+   float: left;
+ }
+
+ .contenedor img {
+   position: absolute;
+   left: 0;
+   transition: opacity 1s ease-in-out;
+ }
+
+ .contenedor img.top:hover {
+   opacity: 0;
+ }
+ .tituloquehacemos {font-weight:600;text-decoration:underline; text-align: center;}
+ .row1 {background-color: BLACK;
+   display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     }
+
+
+ footer {padding: 10px;
+   background-color: lightgrey ;border: 5px white solid}
+   .desarrollado {color: black;font-size: small;
+     font-style: oblique;
+     font-weight: bold;}
+   .iconowhats {width: 100px; position: fixed; bottom: 10px; right: 10px}
+
+
+  .botonindex {color: black;
+    font-style: oblique;
+    font-weight: bold;
+  font-size: large;display: flex;justify-content: center;
+  }
+
+aside3 {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    }
